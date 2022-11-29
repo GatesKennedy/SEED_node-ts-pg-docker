@@ -1,0 +1,4 @@
+CREATE TABLE tbl_user (
+	user_id VARCHAR(64) PRIMARY KEY,
+	name VARCHAR(256)
+);
