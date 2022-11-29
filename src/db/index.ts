@@ -21,7 +21,7 @@ const db = {
 		try {
 			await migrate({client}, path.resolve(__dirname, 'migrations/sql'))
 		} catch (err) {
-			console.log('migration failed', err)
+			console.log('migration failed!!!', err)
 		} finally {
 			client.release()
 		}
